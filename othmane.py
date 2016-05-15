@@ -57,12 +57,5 @@ plt.xlabel('alpha')
 plt.ylabel('score')
 plt.title('score as a function of the regularization')
 plt.axis('tight')
-#plt.show()
-
-# It works , now plot your data ! (X, predict.., learning curves ...)
-bx = plt.gca()
-fig_data = plt.figure()
-xx = np.arange(0, 5, 0.1)
-zz = np.sin(xx)
-plt.plot(xx, zz)
 plt.show()
+
